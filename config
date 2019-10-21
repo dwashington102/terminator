@@ -1,0 +1,28 @@
+[global_config]
+  enabled_plugins = InactivityWatch, TerminalShot, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = blazer
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+  [[blazer]]
+    background_color = "#0d1926"
+    cursor_color = "#aaaaaa"
+    font = Inconsolata 13
+    foreground_color = "#d9e6f2"
+    use_system_font = False
+  [[remote]]
+    background_color = "#2e3436"
+    cursor_color = "#aaaaaa"
+    font = Inconsolata 14
+    foreground_color = "#00ff00"
+    use_system_font = False
