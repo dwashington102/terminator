@@ -1,5 +1,6 @@
 [global_config]
   enabled_plugins = InactivityWatch, TerminalShot, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  title_transmit_bg_color = "#3465a4"
 [keybindings]
 [layouts]
   [[default]]
@@ -14,15 +15,20 @@
 [profiles]
   [[default]]
     cursor_color = "#aaaaaa"
+    foreground_color = "#00ff00"
   [[blazer]]
     background_color = "#0d1926"
+    background_darkness = 0.89
+    background_type = transparent
     cursor_color = "#aaaaaa"
-    font = Inconsolata 13
+    font = Source Code Pro Italic 13
     foreground_color = "#d9e6f2"
+    scrollback_lines = 5000
     use_system_font = False
   [[remote]]
-    background_color = "#2e3436"
-    cursor_color = "#aaaaaa"
+    background_color = "#a40000"
+    cursor_color = "#729fcf"
+    cursor_color_fg = False
     font = Inconsolata 14
-    foreground_color = "#00ff00"
+    foreground_color = "#ffffff"
     use_system_font = False
